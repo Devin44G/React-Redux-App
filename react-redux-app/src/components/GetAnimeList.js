@@ -15,7 +15,10 @@ const GetAnimeList = props => {
         {props.isFetchingData ? (
           <div>we are fetching data</div>
         ) : (
-          <button onClick={dataHandler}>Get Data</button>
+          <button
+            onClick={dataHandler}
+            style={{margin:'2rem 0'}}
+          >Get Episodes Data</button>
         )}
       </>
     </>

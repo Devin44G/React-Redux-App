@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Anime API</h1>
+        <h1>Neon Evangelion API</h1>
       </header>
       <GetAnimeList />
       <AnimeList />
