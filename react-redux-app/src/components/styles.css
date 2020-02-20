@@ -8,3 +8,20 @@
 html {
   font-size: 62.5%;
 }
+
+.card-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #951313;
+  z-index: -1;
+}
+
+h2 {
+  color: #16191f;
+}
+
+i {
+  color: #16191f;
+  text-decoration: underline;
+}

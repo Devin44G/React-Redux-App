@@ -12,15 +12,17 @@ export const EpisodeCard = styled.div`
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  border: solid 1px black;
+  border: solid 1.5px #16191f;
   border-radius: 3px;
   width: 45%;
-  padding: 1rem;
+  ${'' /* padding: 1rem; */}
   margin-bottom: .5rem;
+  position: relative;
 `;
 
 export const TitleInfo = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-bottom: 1rem;
 `;

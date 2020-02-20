@@ -15,11 +15,12 @@ const AnimeList = props => {
         let time = new Date(Date.parse(episode.aired));
         return(
           <EpisodeCard key={episode.episode_id}>
-            <h2 style={{marginBottom:'0px'}}>Episode: {episode.episode_id}</h2>
-            <p>Aired: {time.toDateString()}</p>
+            <div className="card-background"></div>
+            <h2 style={{marginBottom:'0px', paddingTop:'1rem'}}>Episode: {episode.episode_id}</h2>
+            <p>Date Aired: {time.toDateString()}</p>
             <TitleInfo>
               <h3>English Title: <i>{episode.title}</i></h3>
-              <h3>Japanese Title: {episode.title_japanese}</h3>
+              <h3>Japanese Title: <i>{episode.title_japanese}</i></h3>
             </TitleInfo>
           </EpisodeCard>
         );
