@@ -1,7 +1,7 @@
 # Neon Evangelion &mdash; React / Redux App
 
 ### What the app is:
-* A simple data fetching app, which gets data (about the anime, Neon Evangelion) from [Jikan Apiary]('https://jikan.docs.apiary.io/#reference/0/anime/fetch-resource', 'Neon Evangelion API') and renders that data to the screen after an asynchronous axios call.
+* A simple data fetching app, which gets data (about the anime, Neon Evangelion) from [Jikan Apiary](https://jikan.docs.apiary.io/#reference/0/anime/fetch-resource, 'Neon Evangelion API') and renders that data to the screen after an asynchronous axios call.
 
 ### What the app uses:
 * Uses axios to fetch data
