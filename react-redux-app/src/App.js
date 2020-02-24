@@ -15,6 +15,7 @@ function App() {
       </header>
       <GetAnimeList />
       <AnimeList />
+      <footer>&copy; Devin Graham</footer>
     </div>
   );
 }

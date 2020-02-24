@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { getData } from '../actions';
-
+import { Button } from './styles.js';
 
 const GetAnimeList = props => {
   const dataHandler = e => {
@@ -13,12 +13,11 @@ const GetAnimeList = props => {
     <>
       <>
         {props.isFetchingData ? (
-          <div>we are fetching data</div>
+          <div>WE ARE FETCHING DATA . . .</div>
         ) : (
-          <button
+          <Button
             onClick={dataHandler}
-            style={{margin:'2rem 0'}}
-          >Get Episodes Data</button>
+          >Get Episodes Data</Button>
         )}
       </>
     </>

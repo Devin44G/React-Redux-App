@@ -5,6 +5,7 @@ export const CardsContainer =styled.div`
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-around;
+  min-height: 50vh;
 `;
 
 export const EpisodeCard = styled.div`
@@ -25,4 +26,12 @@ export const TitleInfo = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 1rem;
+`;
+
+export const Button = styled.button`
+  border-radius: 3px;
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #16191f;
+  color: white;
 `;
